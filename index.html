@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metric/Imperial Unit Conversion</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<main>
+		<section class="top_section flex">
+			<h1>Metric/Imperial Unit Conversion</h1>
+			<input id="input_num" type="text" value="0">
+			<button id="convert_btn">Convert</button>
+		</section>
+
+		<section class="bottom_section flex">
+			<div id="length_tab" class="tab">
+				<h2>Length (Meter/Feet)</h2>
+				<p id="length_conversion">0 meter/s = 0.000 foot/feet | 0 foot/feet = 0.000 meter/s</p>
+			</div>
+			<div id="volume_tab" class="tab">
+				<h2>Volume (Liters/Gallons)</h2>
+				<p id="volume_conversion">0 liter/s = 0.000 gallon/s | 0 gallon/s = 0.000 liter/s</p>
+			</div>
+			<div id="mass_tab" class="tab">
+				<h2>Mass (Kilograms/Pounds)</h2>
+				<p id="mass_conversion">0 kilogram/s = 0.000 pound/s | 0 pound/s = 0.000 kilogram/s</p>
+			</div>
+
+		</section>
+		<script src="index.js"></script>
+	</main>
+</body>
+
+</html>
